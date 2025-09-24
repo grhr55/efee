@@ -154,7 +154,7 @@ Agendar Consulta
     width={617}
     height={500}
     alt="User Avatar"
-    className="w-[620px] mt-[57px] min-[600px]:h-[500px] max-[600px]:h-[350px]"
+    className="w-[620px] mt-[57px] min-[600px]:h-[500px] max-[600px]:h-[300px] "
    />
 </div>
 
