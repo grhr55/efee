@@ -20,12 +20,12 @@ export default function Form() {
 
                 <div className="">
                 <div>
-                        <h2 className="text-[clamp(16px,5vw,45px)] min-[600px]:pb-[38px]  max-[600px]:pb-[20px]  min-[1041px]:pt-[38px]  max-[1041px]:pt-[0px]     text-[rgba(220,36,40,1)] ">Tratamentos dermatológicos</h2>
+                        <h2 className="text-[clamp(20px,5vw,45px)] min-[600px]:pb-[38px]  max-[600px]:pb-[20px]  min-[1041px]:pt-[38px]  max-[1041px]:pt-[0px]     text-[rgba(220,36,40,1)] ">Tratamentos dermatológicos</h2>
             <div className="hidden min-[600px]:flex">
                         <h3 className=" m-0 p-0 leading-tight  pb-[20px] 2xl:text-[25px] xl:text-[20px] text-left text-[clamp(12px,4vw,20px)]">Há alguns anos, quando se falava em tecnologia, ela era associada <br/> apenas à engenharia e à ciência. Hoje a situação é diferente: <br/>  nossas clientes já desfrutam de diversos tratamentos modernos,<br/>  com segurança e rápida recuperação.</h3>
             </div>
             <div className="flex min-[600px]:hidden">
-                        <h3 className=" m-0 p-0 leading-tight  pb-[20px] 2xl:text-[25px] xl:text-[20px] text-left text-[clamp(13px,3vw,20px)]">Há alguns anos, quando se falava em tecnologia, <br/> ela era associada apenas à engenharia e à <br/>ciência. Hoje a situação é diferente:   nossas <br/> clientes já desfrutam de diversos tratamentos<br/> modernos,  com segurança e rápida<br/> recuperação.</h3>
+                        <h3 className=" m-0 p-0 leading-tight  pb-[20px] 2xl:text-[25px] xl:text-[20px] text-left text-[clamp(15px,3vw,20px)]">Há alguns anos, quando se falava em tecnologia, <br/> ela era associada apenas à engenharia e à <br/>ciência. Hoje a situação é diferente:   nossas <br/> clientes já desfrutam de diversos tratamentos<br/> modernos,  com segurança e rápida<br/> recuperação.</h3>
             </div>
             
                <div className="text-[clamp(15px,4vw,22px)] pb-[20px]">
