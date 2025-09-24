@@ -55,9 +55,10 @@ const products = [
 
 
     return(
-        <div className=" bg-[var(--c4,rgba(228,208,180,1))] w-[100%] pb-[50px] h-[100%]">
-            <div className=" flex justify-center min-[600px]:pt-[80px] max-[600px]:pt-[48px]">
-               <div> <h2 className="text-[clamp(20px,5vw,36px)] text-center text-[rgba(220,36,40,1)] pb-[81px] dm-sans-bold ">O que as nossas clientes dizem?</h2>
+        <div className=" bg-[var(--c4,rgba(228,208,180,1))]  pb-[50px] h-[100%]">
+            <div className="  min-[600px]:pt-[80px] max-[600px]:pt-[48px]">
+               
+                 <h2 className="text-[clamp(20px,5vw,36px)] text-center text-[rgba(220,36,40,1)] pb-[81px] dm-sans-bold ">O que as nossas clientes dizem?</h2>
                <div className="relative hidden min-[1162px]:flex w-full max-w-5xl mx-auto py-10">
   {/* Кнопка "назад" */}
   <div className="hidden min-[1155px]:flex">
@@ -119,7 +120,7 @@ const products = [
   </Swiper>
 </div>
 
-   <div className="relative flex min-[1155px]:hidden  max-w-5xl mx-auto py-20">
+   <div className="relative flex min-[1155px]:hidden  max-w-5xl mx-auto ">
   {/* Кнопка "назад" */}
   
 <div className="hidden min-[500px]:flex">
@@ -149,9 +150,9 @@ const products = [
   >
     {products.map((product, index) => (
       <SwiperSlide key={index}>
-        <div className="flex justify-center pb-[70px]">
-          <div className="h-[175px]  2xl:h-[254px] xl:h-[254px] lg:h-[254px] md:h-[254px] sm:h-[175px]  2xl:w-[451px] xl:w-[451px] lg:w-[451px] md:w-[451px] sm:w-[311px] w-[311px] rounded-[9px]  bg-white flex items-center justify-center">
-            <div className="flex justify-center gap-[20px]" >
+        <div className="flex justify-center  pb-[70px]">
+          <div className="h-[175px]  2xl:h-[254px] xl:h-[254px] lg:h-[254px] md:h-[254px] sm:h-[175px]  2xl:w-[451px] xl:w-[451px] lg:w-[451px] md:w-[451px] sm:w-[311px] w-[311px] rounded-[9px]  bg-white flex items-center ">
+            <div className="flex justify-center  gap-[20px]" >
                  <Image
                     src={product.img}
                     width={172}
@@ -181,7 +182,7 @@ const products = [
 </div>
 
                
-               </div>
+            
 
 
 

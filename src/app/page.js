@@ -6,6 +6,7 @@ import Form from './components/Form'
 import Client from './components/Client'
 import CountUp from "react-countup";
 import Instructor  from './components/Instructor';
+import Slaid from './components/Slaid'
 
 import Contac from './components/Contact';
 
@@ -41,6 +42,7 @@ export default function Home() {
    <Form/>
    <Client/>
    <Instructor/>
+   <Slaid/>
    <Contac/>
  </div>
   );
