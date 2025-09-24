@@ -14,7 +14,7 @@ export const metadata = {
     title: "Güzellik Dünyası – Kozmetik ve Cilt Bakımı",
     description: "Profesyonel kozmetik ürünleri ve cilt bakımı tavsiyeleri. Makyaj, bakım ve güzellik trendlerini keşfedin.",
     images: [
-      "https://ornekcdn.com/images/kosmetik-og-image.jpg",
+      "https://opengraph.b-cdn.net/production/images/96d9c978-ae8f-4961-acf6-56acff57b3e9.png?token=Y_tuAU04RM3XjBYiyX6MWX5f_bZwVRGjFYJLkwpGp4g&height=667&width=854&expires=33294746290",
     ],
   },
   twitter: {
@@ -24,7 +24,7 @@ export const metadata = {
     title: "Güzellik Dünyası – Kozmetik ve Cilt Bakımı",
     description: "Profesyonel kozmetik ürünleri ve cilt bakımı tavsiyeleri. Makyaj, bakım ve güzellik trendlerini keşfedin.",
     images: [
-      "https://ornekcdn.com/images/kosmetik-og-image.jpg",
+      "	https://opengraph.b-cdn.net/production/images/96d9c978-ae8f-4961-acf6-56acff57b3e9.png?token=Y_tuAU04RM3XjBYiyX6MWX5f_bZwVRGjFYJLkwpGp4g&height=667&width=854&expires=33294746290",
     ],
   },
 };
