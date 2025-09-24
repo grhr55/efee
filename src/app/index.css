@@ -1,0 +1,32 @@
+/* globals.css или другой глобальный CSS файл */
+.swiper-pagination-bullet {
+  width: 20px !important;        /* размер точки */
+  height: 20px !important;
+  background-color: #ffffff; /* цвет неактивной */
+  opacity: 1;
+   margin: 0 25px !important; 
+    border-radius: 100%;
+   
+  
+}
+@media (max-width: 600px) {
+  .swiper-pagination-bullet {
+    margin: 0 15px !important;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #dc2428 !important; /* цвет активной */
+  opacity: 1;
+  border-radius: 20%;
+  
+}
+
+/* смещаем весь пагинатор вниз на 20px */
+.swiper-pagination {
+  bottom: -5px !important; /* от нижнего края слайдера */
+}
+
+
