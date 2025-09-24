@@ -119,7 +119,7 @@ const products = [
   </Swiper>
 </div>
 
-   <div className="relative flex min-[1155px]:hidden  w-full max-w-5xl mx-auto py-10">
+   <div className="relative flex min-[1155px]:hidden  max-w-5xl mx-auto py-20">
   {/* Кнопка "назад" */}
   
 <div className="hidden min-[500px]:flex">
