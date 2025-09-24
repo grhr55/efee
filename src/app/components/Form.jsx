@@ -64,7 +64,7 @@ export default function Form() {
                       
                   </div>
                     <div className="m-0 p-0   absolute  left-[35px] 2xl:w-[350px] xl:w-[350px] lg:w-[280px] w-[264px] 2xl:top-[120px]  xl:top-[110px] lg:top-[110px] md:top-[100px]  sm:top-[100px] top-[80px] ">
-                            <h4 className="  text-right  leading-tight 2xl:pr-[30px] xl:pr-[30px] lg:pr-[26px] md:pr-[39px] pr-[39px] 2xl:text-[20px] xl:text-[20px]  lg:text-[17px] md:text-[15px] text-[15px]">Remoção de cravos e </h4>
+                            <h4 className="  text-right  leading-tight 2xl:pr-[30px] xl:pr-[30px] lg:pr-[26px] md:pr-[38px] pr-[39px] 2xl:text-[20px] xl:text-[20px]  lg:text-[17px] md:text-[15px] text-[15px]">Remoção de cravos e </h4>
                             <h5 className=" text-left leading-tight 2xl:text-[20px] xl:text-[20px]  lg:text-[17px] md:text-[15px] text-[15px]"> impurezas da pele, proporcionando a <br/> renovação celular e a redução dos poros.</h5>
                             
                         </div>
@@ -91,7 +91,7 @@ export default function Form() {
                       
                   </div>
                     <div className="m-0 p-0   absolute  left-[35px] 2xl:w-[350px] xl:w-[350px] lg:w-[280px] w-[264px] 2xl:top-[120px]  xl:top-[110px] lg:top-[110px] md:top-[100px]  sm:top-[100px] top-[80px] ">
-                            <h4 className="  text-right  leading-tight 2xl:pr-[25px] xl:pr-[25px] lg:pr-[21px] md:pr-[33px] pr-[34px] 2xl:text-[20px] xl:text-[20px]   lg:text-[17px] md:text-[15px] text-[15px]">Promove a renovação </h4>
+                            <h4 className="  text-right  leading-tight 2xl:pr-[25px] xl:pr-[25px] lg:pr-[21px] md:pr-[34px] pr-[34px] 2xl:text-[20px] xl:text-[20px]   lg:text-[17px] md:text-[15px] text-[15px]">Promove a renovação </h4>
                             <h5 className=" text-left leading-tight 2xl:text-[20px] xl:text-[20px]  lg:text-[17px] md:text-[15px] text-[15px]"> celular, de forma progressiva,  <br/> estimulando a regeneração natural dos tecidos. </h5>
                             
                         </div>
