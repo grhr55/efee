@@ -123,7 +123,7 @@ const products = [
    <div className="relative flex min-[1155px]:hidden  max-w-5xl mx-auto ">
   {/* Кнопка "назад" */}
   
-<div className="hidden min-[500px]:flex">
+<div className="hidden min-[1155px]:flex">
         <div className="custom-next-desktop  text-[rgba(220,36,40,1)] 2xl:text-[60px] xl:text-[60px] lg:text-[30px] text-[30px] top-[160px]  absolute 2xl:left-[-10px] xl:left-[-10px] lg:left-[200px]  md:left-[200px] sm:left-[50px] left-[200px] -translate-y-1/2 z-10 cursor-pointer text-2xl">
     &#10094;
   </div>
@@ -152,7 +152,7 @@ const products = [
       <SwiperSlide key={index}>
         <div className="flex justify-center  pb-[70px]">
           <div className="h-[175px]  2xl:h-[254px] xl:h-[254px] lg:h-[254px] md:h-[254px] sm:h-[175px]  2xl:w-[451px] xl:w-[451px] lg:w-[451px] md:w-[451px] sm:w-[311px] w-[311px] rounded-[9px]  bg-white flex items-center ">
-            <div className="flex justify-center  gap-[20px]" >
+            <div className="flex justify-center pl-[10px]  gap-[20px]" >
                  <Image
                     src={product.img}
                     width={172}
