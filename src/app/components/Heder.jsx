@@ -10,11 +10,15 @@ import { useState } from "react";
 
 
 export default function Home() {
-  const [meni ,setmeni] = useState(true)
+  const [meni ,setmeni] = useState(false)
+  const sectionsIds = ['glav', 'yslug', 'tal', 'contact', ];
 
 
 
   return (
+    <section  id="glav">
+
+    
 
 <div className="bg-[rgba(247,241,223,1)]     min-[1165px]:pb-[140px]   max-[1170px]:pb-[0px]  w-[100%] h-[100%] ">
 
@@ -23,29 +27,43 @@ export default function Home() {
 
 
 
-        <button className="cursor-pointer " onClick={ () => setmeni(!meni )}>
-        { ! meni ? 'Х' : <Image
-    src="/img/menu.png"
-    width={43}
-    height={14}
-    alt="User Avatar"
-    className="w-[43px]  h-[18px]"
-   /> }
-
-        </button>
-
-
-        {!meni && (
-
-            
-            <div className="bg-amber-600 w-full h-[100vh]">
-                <button onClick={() => setmeni(!meni) }>Х</button>
-                <nav>r</nav>
-                <nav>r</nav>
-                <nav>rf</nav>
-                <nav>rf</nav>
-            </div>
+    <div className="relative">
+      {/* Кнопка открытия/закрытия */}
+      <button
+        className="cursor-pointer"
+        onClick={() => setmeni(!meni)}
+      >
+        {meni ? (
+          <Image
+            src="/img/menu.png"
+            width={43}
+            height={14}
+            alt="menu"
+            className="w-[43px] h-[18px]"
+          />
+        ) : (
+          <Image
+            src="/img/menu.png"
+            width={43}
+            height={14}
+            alt="menu"
+            className="w-[43px] h-[18px]"
+          />
         )}
+      </button>
+
+      {/* Меню */}
+{meni && (
+  <div className="bg-amber-600 fixed top-0 left-0 z-50 w-full h-screen">
+    <button onClick={() => setmeni(!meni)}>X</button>
+    <nav>Главная</nav>
+    <nav>О нас</nav>
+    <nav>Услуги</nav>
+    <nav>Контакты</nav>
+  </div>
+)}
+
+    </div>
 
 
 
@@ -107,7 +125,7 @@ Agendar Consulta
 
 
 </div>
-
+</section>
   )
 
 

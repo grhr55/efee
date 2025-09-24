@@ -12,7 +12,7 @@ export default function Form() {
         <div className=" w-[100%] h-[100%] md-[100px] bg-[rgba(228,208,180,1)]" >
 
 
-        
+        <section  id="yslug">
 
     <div className="flex justify-center min-[1165px]:hidden  ">
     <div className="bg-[rgba(255,255,255,1)] flex justify-center w-[74%] h-[500px]  ">
@@ -244,7 +244,7 @@ export default function Form() {
 
 
 
-            
+            </section>
 
             
         </div>

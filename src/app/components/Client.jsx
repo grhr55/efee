@@ -4,6 +4,9 @@
 import Image from "next/image";
 export default function Form() {
     return(
+
+         <section  id="tal">
+            
         <div className="w-[100%] h-[100%] min-[600px]:pt-[80px]  bg-[var(--c2,rgba(252,248,245,1))] max-[600px]:pt-[41px] min-[600px]:pb-[80px]  max-[600px]:pb-[54px]  ">
             <div className="flex justify-center flex-wrap 2xl:gap-[180px] xl:gap-[100px] lg:gap-[60px]">
                 <div className=" hidden min-[1041px]:flex ">
@@ -64,7 +67,7 @@ export default function Form() {
 
             </div>
         </div>
-
+</section>
     )
 }
     

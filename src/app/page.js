@@ -10,7 +10,11 @@ import Slaid from './components/Slaid'
 
 import Contac from './components/Contact';
 
+
+
+
 export default function Home() {
+  
   return (
  <div  >
    <Heder />

@@ -3,6 +3,9 @@ import Image from "next/image";
 
 export default function Contac() {
     return(
+
+        <section  id="contact">
+            
         <div className="bg-[rgba(100,75,44,1)] w-[100%] h-[100%] pb-[30px]">
             <div className="flex  min-[800px]:justify-around  max-[800px]:justify-start   min-[800px]:ml-[0xp]  max-[800px]:ml-[36px]   flex-wrap pt-[80px] ">
                 <h2 className="text-[clamp(24px,4vw,32px)] dm-sans-bold text-[rgba(255,255,255,1)] min-[700px]:mb-[0px] max-[700px]:mb-[36px] ">DERMATO</h2>
@@ -55,6 +58,6 @@ export default function Contac() {
             </div>
             <h2 className="text-[clamp(16px,4vw,20px)] pl-[11%] dm-sans-bold mt-[76px] text-[rgba(255,255,255,1)]">Dermato Alguns direitos reservados</h2>
         </div>
-
+</section>
     )
 }
