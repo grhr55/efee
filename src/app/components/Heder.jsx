@@ -54,14 +54,46 @@ export default function Home() {
 
       {/* Меню */}
 {meni && (
-  <div className="bg-amber-600 fixed top-0 left-0 z-50 w-full h-screen">
-    <button onClick={() => setmeni(!meni)}>X</button>
-    <nav>Главная</nav>
-    <nav>О нас</nav>
-    <nav>Услуги</nav>
-    <nav>Контакты</nav>
+  <div className="bg-amber-600 fixed top-0 left-0 z-50 w-full h-screen flex flex-col">
+    {/* Кнопка закрытия */}
+    <button
+      onClick={() => setmeni(false)}
+      className="absolute top-5 right-5 text-white text-4xl cursor-pointer hover:rotate-90 transition-transform"
+    >
+      ✕
+    </button>
+
+    {/* Контент меню */}
+    <nav className="flex flex-col items-center justify-center flex-1 gap-10 text-white font-bold">
+      {/* Логотип/название */}
+      <h1 className="text-3xl sm:text-4xl tracking-widest mb-6">DERMATO</h1>
+
+      {/* Ссылки */}
+      {['Início', 'Serviços', 'Sobre', 'Contato'].map((item, index) => (
+        <a
+          key={index}
+          href="#"
+          className="text-2xl sm:text-3xl cursor-pointer hover:text-gray-200 transition-colors"
+          onClick={(e) => {
+            e.preventDefault();
+            const section = document.getElementById(sectionsIds[index]);
+            if (section) section.scrollIntoView({ behavior: "smooth" });
+            setmeni(false); // закрываем меню после клика
+          }}
+        >
+          {item}
+        </a>
+      ))}
+    </nav>
+
+    {/* Футер меню (опционально) */}
+    <div className="pb-10 text-white text-sm text-center opacity-80">
+      © 2025 DERMATO. Todos os direitos reservados.
+    </div>
   </div>
 )}
+
+
 
     </div>
 
@@ -108,7 +140,10 @@ export default function Home() {
 o tratamento também</h2>
 <h3 className=" dm-sans-bold text-[clamp(13px,3vw,20px)] pb-[30px]  ">A padronização de tratamentos estéticos gera resultados <br/> artificiais. Por isso analisamos sua pele e realizamos<br/> apenas procedimentos personalizados para você.</h3>
 
-<a href="#" className="w-[263px] text-center text-[clamp(16px,4vw,20px)]  rounded-[5px] bg-[var(--c8,rgba(220,36,40,1))] text-white p-4    h-[58px] font-bold dm-sans-bold">
+<a  onClick={() => {
+            const section = document.getElementById("contact");
+            if (section) section.scrollIntoView({ behavior: "smooth" });
+          }}  className="w-[263px] cursor-pointer text-center text-[clamp(16px,4vw,20px)]  rounded-[5px] bg-[var(--c8,rgba(220,36,40,1))] text-white p-4    h-[58px] font-bold dm-sans-bold">
 Agendar Consulta
 </a>
 

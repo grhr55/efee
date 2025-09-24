@@ -6,7 +6,7 @@ export default function Form() {
     return(
 
          <section  id="tal">
-            
+
         <div className="w-[100%] h-[100%] min-[600px]:pt-[80px]  bg-[var(--c2,rgba(252,248,245,1))] max-[600px]:pt-[41px] min-[600px]:pb-[80px]  max-[600px]:pb-[54px]  ">
             <div className="flex justify-center flex-wrap 2xl:gap-[180px] xl:gap-[100px] lg:gap-[60px]">
                 <div className=" hidden min-[1041px]:flex ">
@@ -54,7 +54,10 @@ export default function Form() {
                     </div>
                      
                      
-                     <a href="#" className="w-[263px] text-center text-[clamp(16px,4vw,20px)]  rounded-[5px] bg-[var(--c8,rgba(220,36,40,1))] text-white p-4    h-[58px] font-bold dm-sans-bold">
+                     <a onClick={() => {
+            const section = document.getElementById("contact");
+            if (section) section.scrollIntoView({ behavior: "smooth" });
+          }}   className="w-[263px] cursor-pointer text-center text-[clamp(16px,4vw,20px)]  rounded-[5px] bg-[var(--c8,rgba(220,36,40,1))] text-white p-4    h-[58px] font-bold dm-sans-bold">
                      Agendar Consulta
                      </a>
                 </div>
