@@ -10,7 +10,7 @@ export const metadata = {
   description: "Profesyonel kozmetik ürünleri ve cilt bakımı tavsiyeleri. Makyaj, bakım ve güzellik trendlerini keşfedin.",
   openGraph: {
     type: "website",
-    url: "https://ornekkozmetik.com",
+    url: "https://musical-blini-3572ed.netlify.app",
     title: "Güzellik Dünyası – Kozmetik ve Cilt Bakımı",
     description: "Profesyonel kozmetik ürünleri ve cilt bakımı tavsiyeleri. Makyaj, bakım ve güzellik trendlerini keşfedin.",
     images: [
@@ -19,16 +19,15 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    domain: "ornekkozmetik.com",
-    url: "https://ornekkozmetik.com",
+    domain: "musical-blini-3572ed.netlify.app",
+    url: "https://musical-blini-3572ed.netlify.app",
     title: "Güzellik Dünyası – Kozmetik ve Cilt Bakımı",
     description: "Profesyonel kozmetik ürünleri ve cilt bakımı tavsiyeleri. Makyaj, bakım ve güzellik trendlerini keşfedin.",
     images: [
-      "	https://opengraph.b-cdn.net/production/images/96d9c978-ae8f-4961-acf6-56acff57b3e9.png?token=Y_tuAU04RM3XjBYiyX6MWX5f_bZwVRGjFYJLkwpGp4g&height=667&width=854&expires=33294746290",
+      "https://opengraph.b-cdn.net/production/images/96d9c978-ae8f-4961-acf6-56acff57b3e9.png?token=Y_tuAU04RM3XjBYiyX6MWX5f_bZwVRGjFYJLkwpGp4g&height=667&width=854&expires=33294746290",
     ],
   },
 };
-
 
 
  

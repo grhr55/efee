@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images:{
+        domains:'musical-blini-3572ed'
+    }
+};
 
 export default nextConfig;
